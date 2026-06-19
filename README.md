@@ -10,23 +10,23 @@ A simple wireless air mouse using mpu6050 controlled by arduino uno/nano microco
 <br><h2>Connections</h2>
 
 <h3>Receiver side</h3>
-<b>433MHz receiver         Arduino</b>
-VCC                     5V
-GND                     GND
+<b>433MHz receiver         Arduino</b><br>
+VCC                     5V<br>
+GND                     GND<br>
 Data pin                Pin 11
 <h3>Transmitter side</h3>
-<b>433MHz Transmitter      Arduino</b>
-VCC                     5V
-GND                     GND
-Data pin                Pin 12
-<b>MPU 6050                Arduino</b>
-VCC                     5V
-GND                     GND
-SCL                     A5
-SDA                     A4
-<b>Tactile button          Arduino</b>
-One end                    5V
-Other end                  D6
+<b>433MHz Transmitter      Arduino</b><br>
+VCC                     5V<br>
+GND                     GND<br>
+Data pin                Pin 12<br>
+<b>MPU 6050                Arduino</b><br>
+VCC                     5V<br>
+GND                     GND<br>
+SCL                     A5<br>
+SDA                     A4<br>
+<b>Tactile button          Arduino</b><br>
+One end                    5V<br>
+Other end                  D6<br>
 Pull down resistor D6 to ground
 
 <br><h2>Explanation</h2>
