@@ -1,0 +1,8 @@
+Additional Libraries used in Arduino IDE :
+
+# for running mpu6050
+1. Adafruit MPU6050
+2. Adafruit Unified Sensor
+
+# for running 433MHz transreceiver
+3. RadioHead by Mike McCauley
