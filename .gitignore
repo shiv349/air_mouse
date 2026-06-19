@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python files you don't need on GitHub
+__pycache__/
+*.pyc
+
+# Arduino build files
+build/
