@@ -30,8 +30,10 @@ Other end--------------D6<br>
 Pull down resistor D6 to ground
 
 <br><h2>Explanation</h2>
-The mpu and button pressed data is read by arduino and transmitted using the 433MHz ttranmitter. The receiver receives the data and the arduino unpacks it to be used by python program. The mpu's x and y acceleration is used to determine how much it is tilted and python read this data through serial port and convert it into equivalent cursor movement.
+The mpu and button pressed data is read by arduino and transmitted using the 433MHz tranmitter. The receiver receives the data and the arduino unpacks it to be used by python program. The mpu's x and y acceleration is used to determine how much it is tilted and python read this data through serial port and convert it into equivalent cursor movement.
 The cursor movement can be tuned by changing the deadzone and speed multiplier defined in python code.
+
+The optimised version used both acceleration as well as gyro x and y axis data. A complementary filter is used with alpha confidence given to gyro for fast movement and small (1-alpha) confidence given to acceleration for stability.
 
 <br><h2>Modifications that can be done</h2>
 Replacing the arduino with esp32 will be great as the 433MHz transreceiver can be replaced by inbuilt esp32's bluetooth. This will reduce the latency and hardware as well.
